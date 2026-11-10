@@ -10,7 +10,7 @@ public static class Program
         Console.Title = "String Evolution";
         Console.CursorVisible = false;
 
-        Console.Write("Введите целевую фразу (или нажмите Enter для 'Hello, World!'): ");
+        Console.Write("Введите целевую строку (или нажмите Enter для 'Hello, World!'): ");
         var target = Console.ReadLine();
         if (string.IsNullOrWhiteSpace(target))
         {
